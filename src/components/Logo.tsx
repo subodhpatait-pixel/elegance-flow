@@ -1,6 +1,6 @@
 import logo from "@/assets/elevatex-logo.png";
 
-export function Logo({ className = "h-8" }: { className?: string }) {
+export function Logo({ className = "h-14" }: { className?: string }) {
   return (
     <a href="/" className="inline-flex items-center gap-2 group">
       <img src={logo} alt="ElevateX" className={`${className} w-auto object-contain`} />
