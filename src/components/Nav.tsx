@@ -30,7 +30,7 @@ export function Nav() {
       }`}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
-        <Logo className="h-8" />
+        <Logo className="h-14" />
         <nav className="hidden md:flex items-center gap-10 text-sm tracking-wide text-muted-foreground">
           {links.map((l) => (
             <a
