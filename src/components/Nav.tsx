@@ -29,8 +29,8 @@ export function Nav() {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
-        <Logo className="h-14" />
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 h-48 flex items-center justify-between">
+        <Logo className="h-44" />
         <nav className="hidden md:flex items-center gap-10 text-sm tracking-wide text-muted-foreground">
           {links.map((l) => (
             <a
