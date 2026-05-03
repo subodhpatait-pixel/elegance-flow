@@ -28,7 +28,7 @@ export function Hero() {
           </motion.p>
 
           <h1 className="font-display text-[clamp(3rem,9vw,9rem)] leading-[0.95] tracking-tight text-balance">
-            {["Where", "brands", "become"].map((word, i) => (
+            {["Where", "brands", "become", "an"].map((word, i) => (
               <motion.span
                 key={word}
                 initial={{ opacity: 0, y: 60 }}
@@ -45,7 +45,7 @@ export function Hero() {
               transition={{ duration: 1, delay: 0.4, ease }}
               className="inline-block italic gradient-accent-text"
             >
-              empires.
+              empire.
             </motion.span>
           </h1>
 
